@@ -59,6 +59,8 @@ input {
 
 .deleteBtn {
   display: block;
+  position: right;
+  float: right;
   justify-self: center;
   border: none;
   width: 15%;
@@ -73,8 +75,9 @@ input {
 
 .button {
   display: inline-block;
-  width: 950px;
+  width: 800px;
   align-content: right;
+  clear: both;
 }
 
 .myOutput {
