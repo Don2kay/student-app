@@ -4,17 +4,6 @@ const myInput = document.querySelector("#myInput")
 
 const addBtn = document.querySelector(".addBtn")
 
-// function addInput() {
-//     const content = myInput.value;
-//     if (content === ""){
-//         alert("Please Type your name!!!")
-//     }
-//     else{
-//         myOutput.innerHTML = content;
-//         myInput.value = "";
-//     }
-// };
-
  function addInput() {
     const content = myInput.value;
     if (content == ""){

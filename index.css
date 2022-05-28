@@ -86,3 +86,19 @@ input {
   margin-top: 20px;
   color: black;
 }
+
+@media screen and (max-width: 500px) {
+  body {
+    box-sizing: border-box;
+    width: 400px;
+    font-size: 15px;
+    padding: 10px;
+  }
+  .button {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 380px;
+    align-content: right;
+    clear: both;
+  }
+}
